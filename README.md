@@ -1,4 +1,4 @@
-# Serverless API
+# Simple Koa Postgres API
 
 ### Requirements
 * [Node.js](https://nodejs.org/en/download/) 
