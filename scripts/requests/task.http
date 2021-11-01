@@ -1,0 +1,19 @@
+### Create Task
+POST http://localhost:3000/task/
+Content-Type: application/json
+
+{
+    "title": "test",
+    "description": ""
+}
+
+
+### Get All
+GET http://localhost:3000/task/
+
+### Get One
+GET http://localhost:3000/task/9/
+
+### Delete One
+DELETE http://localhost:3000/task/11
+

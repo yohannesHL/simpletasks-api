@@ -1,0 +1,3 @@
+CREATE USER taskeradmin;
+CREATE DATABASE tasker;
+GRANT ALL PRIVILEGES ON DATABASE tasker TO taskeradmin;

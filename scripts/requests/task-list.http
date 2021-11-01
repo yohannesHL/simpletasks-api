@@ -1,0 +1,37 @@
+### Create Task List
+POST http://localhost:3000/task-list/
+Content-Type: application/json
+
+{
+    "title": "test",
+    "description": ""
+}
+
+
+### Get All
+GET http://localhost:3000/task-list/
+
+### Get One
+GET http://localhost:3000/task-list/1/
+
+### Delete One
+DELETE http://localhost:3000/task-list/4
+
+
+### Add Task List Task
+
+POST http://localhost:3000/task-list/1/task
+Content-Type: application/json
+
+{
+    "taskId": 11
+}
+
+
+### Get Task List Tasks
+
+GET http://localhost:3000/task-list/1/task
+
+### Remove Task List Task
+
+DELETE http://localhost:3000/task-list/1/task/10/
